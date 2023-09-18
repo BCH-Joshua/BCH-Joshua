@@ -6,12 +6,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "👋 Hi, I’m @BCH-Joshua."
-      - run: echo "👀 I’m interested in"
-      - run: echo "🌱 I’m currently learning."
+      - run: echo "👀 I’m interested in Watching F1"
+      - run: echo "🌱 I’m currently learning IT."
       - name: Check out repository code
         uses: actions/checkout@v3
-      - run: echo "💞️ I’m looking to collaborate on."
-      - run: echo "📫 How to reach me."
+      - run: echo "💞️ I’m looking to collaborate on with Tommy."
+      - run: echo "📫 How to reach me contact me."
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
